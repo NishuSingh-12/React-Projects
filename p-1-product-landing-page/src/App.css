@@ -7,6 +7,7 @@
 .main-container {
   max-width: 1240px;
   margin: 0 auto;
+  padding-inline: 20px;
 }
 /* Navbar componet styles */
 .nav-container {
@@ -84,4 +85,46 @@
 .shop-container {
   margin-top: -60px;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .nav-container {
+    padding-right: 20px;
+  }
+  .Hero-container {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .hero-img {
+    order: 1;
+  }
+  .hero-img img {
+    width: 300px;
+  }
+  .hero-content {
+    order: 2;
+  }
+  .shop-container {
+    display: none;
+  }
+  .logo-img-container img {
+    width: 52px;
+  }
+  .nav-container ul {
+    gap: 8px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .login-btn {
+    padding: 6px 10px;
+    font-size: 10px;
+  }
+  .Hero-container h1 {
+    font-size: 40px;
+    line-height: 3rem;
+    width: 400px;
+  }
+  .Hero-container p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
 }
