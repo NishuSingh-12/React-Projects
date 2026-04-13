@@ -4,8 +4,8 @@ This is a simple and responsive product landing page built using React. The desi
 
 ## Screenshots
 
-![Desktop Degign] (./public/images/desktop.png)
-![Mobile Degign] (./public/images/mobile.png)
+![Desktop UI] (public/images/desktop.png)
+![Mobile UI] (public/images/mobile.png)
 
 ## 🚀 Features
 
