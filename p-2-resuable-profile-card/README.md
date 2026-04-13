@@ -2,6 +2,11 @@
 
 A simple and responsive **Profile Card UI** built using React. This project displays multiple profile cards using dynamic data rendering with `props` and the `map()` method.
 
+## 📷 Screenshots
+
+![Desktop Degign] ('/images/desktop.png')
+![Mobile Degign] ('/images/mobile.png')
+
 ## 🚀 Features
 
 - Responsive design
@@ -39,11 +44,6 @@ A simple and responsive **Profile Card UI** built using React. This project disp
 - Rendering lists using **map()**
 - Building reusable components
 - Creating responsive layouts
-
-## 📷 Preview
-
-![Desktop UI] ('./public/desktop.png)
-![Mobile UI] ('./public/mobile.png)
 
 ## 🙌 Author
 
