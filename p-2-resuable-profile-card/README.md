@@ -4,8 +4,8 @@ A simple and responsive **Profile Card UI** built using React. This project disp
 
 ## 📷 Screenshots
 
-![Desktop Degign] ('/p-2-resuable-profile-card/public/images/desktop.png')
-![Mobile Degign] ('/p-2-resuable-profile-card/public/images/mobile.png')
+![Desktop Degign](public/images/desktop.png)
+![Mobile Degign](public/images/mobile.png)
 
 ## 🚀 Features
 
