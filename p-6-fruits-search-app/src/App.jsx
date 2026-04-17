@@ -1,6 +1,11 @@
 import "./App.css";
+import FruitsSearch from "./components/FruitsSearch";
 function App() {
-  return <div>Search fruits app</div>;
+  return (
+    <>
+      <FruitsSearch />
+    </>
+  );
 }
 
 export default App;
