@@ -28,7 +28,7 @@ function FruitsSearch() {
       } catch (error) {
         console.error(error);
       }
-    }, 500);
+    }, 700);
 
     return () => clearTimeout(timeoutID);
   }, [query]);
@@ -52,9 +52,9 @@ function FruitsSearch() {
               {item}
             </p>
           ))
-        ) : (
-          <p>Result not found</p>
-        )}
+        ) : query && results.length === 0 ? (
+          <p>No results found</p>
+        ) : null}
       </div>
     </div>
   );
